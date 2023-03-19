@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Juan-Goro-Thompson-Proyecto-final</title>
+</head>
+<body>
+    <div id="div__header">
+        <header>
+            <nav id="nav">
+                <img src="./images/logo__img.png" alt="logo" id="logo">
+                <a href="#section1" id="nav__a">Pedi tu beca</a>
+            </nav>
+        </header>
+    </div>
+
+    <section id="section1">
+
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+            
+            <h2>Notas</h2>
+
+            <label for="nota1">Matematicas</label>
+            <input type="number" id="nota1" name="nota1" required>
+            
+            <label for="nota2">Lengua</label>
+            <input type="number" id="nota2" name="nota2" required>
+            
+            <label for="nota3">Geografia</label>
+            <input type="number" id="nota3" name="nota3" required>
+            
+            <label for="nota4">fisica</label>
+            <input type="number" id="nota4" name="nota4" required>
+            
+            <label for="nota5">biologia</label>
+            <input type="number" id="nota5" name="nota5" required>
+            
+            <input type="submit" value="Enviar">
+        </form>
+          
+        <div id="resultado"></div>
+  
+    </section>
+
+    <script src="proyectofinal.js"></script>
+</body>
+</html>
